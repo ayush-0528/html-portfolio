@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore my web development projects.">
+    <title>Projects | Ayush Sharma</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Send a Message</h2>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <p>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </p>
+
+                    <p>
+                        <label for="reason">Reason for Contact</label>
+                        <select id="reason" name="reason" required>
+                            <option value="">Select a reason</option>
+                            <option value="project">Project discussion</option>
+                            <option value="job">Job opportunity</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="updates" name="updates" value="yes">
+
+                        <label for="updates">
+                            I would like to receive updates.
+                        </label>
+                    </p>
+
+                    <button type="submit">Submit Message</button>
+                    <button type="reset">Clear Form</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Ayush Sharma</p>
+    </footer>
+</body>
+
+</html>
